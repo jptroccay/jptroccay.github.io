@@ -120,7 +120,7 @@ header {
 .home__section {
     min-height: 100vh;
     position: relative;
-     /* box-shadow: 0 0 10px 10px rgba(0, 0, 0, .5); */
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .5);
 }
 
 .home {
@@ -137,7 +137,7 @@ header {
     background-image: url("../img/hero.jpg");
 }
 
-/* .home:before {
+.home:before {
     content: '';
     top: 0;
     bottom: 0;
@@ -148,7 +148,7 @@ header {
     opacity: 0.5;
     min-height: 100vh;
     width: 100%;
-} */
+}
 
 /* .home .texture {
     width: 100%;
@@ -727,8 +727,7 @@ textarea {
     }
 
     .social a i {
-        font-size: 30px;
-        transition: all 0.3s;
+        font-size: 40px;
     }
 
     .techno__tittle {
@@ -767,11 +766,20 @@ textarea {
         font-size: 12px;
     }
 
+    .contact__section {
+        margin: 50px 0;
+    }
+
 
 }
 
 @media screen and (max-width: 350px) {
     .input {
         width: 250px;
+    }
+
+    .social a i {
+        font-size: 30px;
+
     }
 }
