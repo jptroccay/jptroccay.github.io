@@ -13,9 +13,8 @@ $message = $_POST['message'];
 $contenido = "Nombre: " .$name. "\nemail" .$email. "subjet" .$subjet. "message" .$message;
 mail($destiny,$subjet,$contenido);
 
-header("Location:../index.html");
+header("Location: ../en/index.html");
 if ($contenido) {
-    echo "<h4>Email enviado exitosamente</h4>";
+    echo "<h4>Email sent successfully</h4>";
 };
 ?>
-

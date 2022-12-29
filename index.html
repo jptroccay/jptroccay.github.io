@@ -140,8 +140,10 @@
     <!-- TECHNO END -->
     <!-- PROJECT START -->
     <!-- <section class="project__section" id="project">
-        <div class="project__box">
-            <img src="img/p_1.png" alt="">
+        <div class="project__container">
+            <div class="project__box">
+                <img src="img/p_1.png" alt="">
+            </div>
         </div>
     </section> -->
     <!-- PROJECT END -->
@@ -168,13 +170,13 @@
                 </div>
                 <div class="contact__right">
                     <form action="php/enviar.php" method="post">
-                        <input class="input" name="name" type="text" placeholder="Nombre y Apellido" autocomplete="off"
+                        <input class="input" name="name" type="text" placeholder="Nombre y apellido" autocomplete="off"
                             required>
                         <input class="input" name="email" type="text" placeholder="Email" autocomplete="off" required>
-                        <input class="input" name="tema" type="text" placeholder="Tema" autocomplete="off" required>
-                        <textarea name="mensaje" class="input input__msj" type="text" placeholder="Mensaje"
+                        <input class="input" name="subjet" type="text" placeholder="Tema" autocomplete="off" required>
+                        <textarea class="input input__msj" name="message" type="text" placeholder="Mensaje"
                             autocomplete="off"></textarea required>
-                <button class="input button" type="submit">Enviar</button>
+                <button class="input button" type="submit" name="send">Enviar</button>
             </form>
         </div>
         </div>
@@ -194,6 +196,9 @@
          <script>
             AOS.init();
         </script>
+         <!-- <?php
+         include("php/enviar.php");
+         ?> -->
 </body>
 <!-- CONTACT END -->
 
