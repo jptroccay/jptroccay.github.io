@@ -129,7 +129,7 @@ header {
 }
 
 .active {
-    background-color: var(--color3);
+    background-color: var(--color1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
 }
 
@@ -149,13 +149,13 @@ header {
     transition: all .45s ease;
 }
 
-.navlinks a:hover {
+/* .navlinks a:hover {
     color: var(--color1);
-}
+} */
 
 #menu-icon {
     font-size: 35px;
-    color: var(--color1);
+    color: var(--color2);
     z-index: 1001;
     cursor: pointer;
     margin-left: 25px;
@@ -596,7 +596,7 @@ textarea {
 
 .footer-end {
     height: 60px;
-    background-color: var(--color3);
+    background-color: var(--color1);
     color: var(--color2);
     display: flex;
     justify-content: center;
