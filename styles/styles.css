@@ -363,12 +363,12 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .skills__left {
     display: flex;
     width: 100%;
     height: 100%;
-    /* width: 50%;
-    height: 100%; */
+    /* width: 50%;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -382,19 +382,20 @@ header {
 } */
 
 .skills__container {
-    height:600px;
-    width: 60%;
-    padding: 50px;
+    height: 100%;
+    width: 100%;
+    max-width: 60%;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, .1);
 }
 
-.skills__tittle  {
+.skills__tittle {
     color: var(--color1);
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.skills__tittle h3{
+.skills__tittle h2 {
     margin-bottom: 20px;
     /* border-bottom: 3px solid var(--color1); */
 }
@@ -426,8 +427,8 @@ header {
     animation: html-barra 2s forwards;
 }
 
-@keyframes html-barra{
-    100%{
+@keyframes html-barra {
+    100% {
         width: 70%;
     }
 }
@@ -436,8 +437,8 @@ header {
     animation: css-barra 2s forwards;
 }
 
-@keyframes css-barra{
-    100%{
+@keyframes css-barra {
+    100% {
         width: 60%;
     }
 }
@@ -446,8 +447,8 @@ header {
     animation: js-barra 2s forwards;
 }
 
-@keyframes js-barra{
-    100%{
+@keyframes js-barra {
+    100% {
         width: 30%;
     }
 }
@@ -456,8 +457,8 @@ header {
     animation: react-barra 2s forwards;
 }
 
-@keyframes react-barra{
-    100%{
+@keyframes react-barra {
+    100% {
         width: 10%;
     }
 }
@@ -466,8 +467,8 @@ header {
     animation: php-barra 2s forwards;
 }
 
-@keyframes php-barra{
-    100%{
+@keyframes php-barra {
+    100% {
         width: 30%;
     }
 }
@@ -476,8 +477,8 @@ header {
     animation: sql-barra 2s forwards;
 }
 
-@keyframes sql-barra{
-    100%{
+@keyframes sql-barra {
+    100% {
         width: 50%;
     }
 }
@@ -486,8 +487,8 @@ header {
     animation: git-barra 2s forwards;
 }
 
-@keyframes git-barra{
-    100%{
+@keyframes git-barra {
+    100% {
         width: 40%;
     }
 }
@@ -593,8 +594,9 @@ textarea {
 }
 
 @media screen and (max-width: 1600px) {
-
+    
     .about__container {
+        padding: 3% 0px;
         max-width: 80%;
     }
 
@@ -608,6 +610,17 @@ textarea {
         font-size: 18px;
     }
 
+    /* SKILLS START */
+
+    .skills__container {
+        max-width: 80%;
+    }
+
+    .skills__tittle {
+        font-size: 18px;
+    }
+
+    /* SKILLS END */
     .contact__container {
         max-width: 80%;
         height: 500px;
@@ -726,7 +739,6 @@ textarea {
     .about__texts {
         width: 90%;
         margin-left: 0px;
-        font-size: 20px;
     }
 
 
@@ -736,12 +748,7 @@ textarea {
     }
 
     /* ABOUT END */
-    /* SKILLS START */
-    .skills__container {
-        width: 80%;
-    }
-    
-    /* SKILLS END */
+
     /* CONTACT FORM START */
 
     .contact__container {
@@ -751,7 +758,7 @@ textarea {
     }
 
     .contact__info {
-    padding: 30px;
+        padding: 30px;
     }
 
     .contact__form {
@@ -798,16 +805,16 @@ textarea {
         height: 30px;
     }
 
-    .about__texts {
+    /* .about__texts {
         font-size: 15px;
-    }
+    } */
 
     .social a i {
         font-size: 30px;
 
     }
 
-   
+
     /* CONTACT FORM START */
 
     .input {
@@ -826,7 +833,7 @@ textarea {
     }
 
     /* CONTACT FORM END */
-    
+
     .footer-end p {
         font-size: 10px;
     }
@@ -843,14 +850,20 @@ textarea {
 
     }
 
-   .about-img img {
+    .about__container {
+        margin: 10px 0;
+    }
+
+    .about-img img {
         height: 300px;
     }
 
-    .about__texts {
-        width: 90%;
-        margin-left: 0px;
-        font-size: 12px;
+    .skills__left {
+        margin: 10px 0;
+    }
+
+    .contact__container {
+        margin: 10px 0;
     }
 
 }
