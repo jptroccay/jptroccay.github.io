@@ -531,8 +531,13 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: var(--color3);
+    background-color: var(--color1);
+    /* background-image: url("../img/contact_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
 }
+
 
 .ubication {
     margin: 50px;
@@ -540,7 +545,7 @@ header {
 
 .contact__icon {
     font-size: 50px;
-    color: var(--color1);
+    color: var(--color2);
 }
 
 .contact__info p {
