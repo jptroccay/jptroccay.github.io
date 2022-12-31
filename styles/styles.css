@@ -7,7 +7,7 @@
 }
 
 :root {
-    --color1: #930308;
+    --color1: #0073ff;
     --color2: #f2f2f2;
     --color3: #000000;
     --color4: #1b3039;
@@ -831,6 +831,17 @@ textarea {
 
     }
 
+    .about__texts {
+        font-size: 16px;
+    }
+
+    .skills__tittle {
+        font-size: 16px;
+    }
+
+    .contact__tittle {
+        font-size: 16px;
+    }
 
     /* CONTACT FORM START */
 
