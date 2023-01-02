@@ -62,7 +62,7 @@
     <!-- HOME END -->
     <!-- ABOUT START -->
     <section class="about__section" id="about">
-        <div class="about__container" data-aos="fade-up" data-aos-duration="3000">
+        <div class="about__container container" data-aos="fade-up" data-aos-duration="3000">
             <div class="about-img">
                 <img src="../img/me.png" alt="">
             </div>
@@ -89,11 +89,11 @@
     <!-- ABOUT END -->
     <!-- SKILLS START -->
     <section class="skills__section" id="skills">
-        <div class="skills__left" data-aos="fade-up" data-aos-duration="3000">
-            <div class="skills__tittle">
-                <h2>Skills</h2>
-            </div>
-            <div class="skills__container">
+        <div class="skills__container container" data-aos="fade-up" data-aos-duration="3000">
+            <div class="skills__left">
+                <div class="skills__tittle">
+                    <h2>Skills</h2>
+                </div>
                 <div class="skills">
                     <div class="detalles">
                         <span>HTML</span>
@@ -177,7 +177,7 @@
     <!-- PROJECT END -->
     <!-- CONTACT START -->
     <section class="contact__section container" id="contact">
-        <div class="contact__container" data-aos="fade-up" data-aos-duration="3000">
+        <div class="contact__container container" data-aos="fade-up" data-aos-duration="3000">
             <div class="contact__info">
                 <div class="phone">
                     <i class='contact__icon bx bx-phone'></i>
@@ -192,14 +192,13 @@
                     <p>jptroccay@gmail.com</p>
                 </div>
             </div>
-            
+
             <div class="contact__form">
                 <div class="contact__tittle">
                     <h2>Contact me</h2>
                 </div>
                 <form action="../php/send.php" method="post">
-                    <input class="input" name="name" type="text" placeholder="Full Name" autocomplete="off"
-                        required>
+                    <input class="input" name="name" type="text" placeholder="Full Name" autocomplete="off" required>
                     <input class="input" name="email" type="text" placeholder="E-mail" autocomplete="off" required>
                     <input class="input" name="subjet" type="text" placeholder="Subjet" autocomplete="off" required>
                     <textarea class="input input__msj" name="message" type="text" placeholder="Your Message"
