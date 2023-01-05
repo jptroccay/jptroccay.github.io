@@ -10,10 +10,11 @@
     --color1: #0073ff;
     --color2: #f2f2f2;
     --color3: #000000;
-    --color4: #1b3039;
-    --color5: #e0e0e0;
-    --color6: #021222;
-    --color7: #051c38;
+    --bg-navbar2: #e0e0e0;
+    --bg-menu: #051c38;
+    --bg-menu-hover: #021222;
+    --color--texts1: #f2f2f2;
+    --color--texts2: #000000;
     scroll-behavior: smooth;
 }
 
@@ -25,6 +26,7 @@ body {
     background-position: center center;
     /* background-attachment: fixed; */
     /* background-image: url("../img/background.jpg"); */
+    /* background-color: #000000; */
 }
 
 .container {
@@ -134,7 +136,7 @@ header {
 }
 
 .active-nav-color {
-    background-color: var(--color7);
+    background-color: var(--bg-menu);
 }
 
 .navlinks {
@@ -274,6 +276,7 @@ header {
 .about__texts {
     margin: 50px;
     font-size: 20px;
+    color: var(--color--texts2);
 }
 
 .about__texts h2 {
@@ -297,8 +300,6 @@ header {
     margin: 0 5px;
     text-decoration: none;
     color: var(--color1);
-    /* align-items: center; */
-
 }
 
 .social-icons {
@@ -354,9 +355,6 @@ header {
     transform: scale(1.2);
     color: #0072b1;
 } */
-
-
-
 /* ABOUT END*/
 /* SKILLS START */
 
@@ -408,6 +406,10 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+}
+
+.detalles span {
+    color: var(--color--texts2);
 }
 
 .menu {
@@ -496,8 +498,6 @@ header {
     }
 }
 
-
-
 /* SKILLS END */
 /* PROJECT START */
 
@@ -544,7 +544,7 @@ header {
 
 .contact__info p {
     font-size: 20px;
-    color: var(--color2);
+    color: var(--color--texts1);
 }
 
 .contact__form {
@@ -567,8 +567,8 @@ header {
     width: 90%;
     height: 60px;
     border: none;
-    background-color: #d7d7d7;
     color: var(--color3);
+    background-color: #d7d7d7;
 }
 
 .input__msj {
@@ -583,7 +583,7 @@ textarea {
     cursor: pointer;
     height: 50px;
     background-color: var(--color1);
-    color: var(--color2);
+    color: var(--color--texts1);
 }
 
 /* CONTACT FORM END */
@@ -603,7 +603,7 @@ textarea {
         font-size: 35px;
 
     }
-    
+
     .paragraph-hero {
         font-size: 25px;
     }
@@ -664,7 +664,7 @@ textarea {
         top: 60px;
         width: 100%;
         height: 100%;
-        background-color: var(--color7);
+        background-color: var(--bg-menu);
         display: flex;
         text-align: center;
         flex-direction: column;
@@ -694,7 +694,7 @@ textarea {
     }
 
     .navlinks li:hover {
-        background-color: var(--color6);
+        background-color: var(--bg-menu-hover);
     }
 
     .navlinks a:hover {
