@@ -498,6 +498,18 @@ header {
     }
 }
 
+#wordpress-menu {
+    animation: wordpress-barra 2s forwards;
+}
+
+@keyframes wordpress-barra {
+    100% {
+        width: 70%;
+    }
+}
+
+
+
 /* SKILLS END */
 /* PROJECT START */
 
